@@ -1,0 +1,27 @@
+# Multi-Agent PowerPoint Orchestrator
+# Core dependencies
+
+# PowerPoint generation
+python-pptx>=0.6.21
+
+# Data processing
+pandas>=2.0.0
+openpyxl>=3.1.0
+numpy>=1.24.0
+
+# Data visualization (for Chart Agent)
+matplotlib>=3.7.0
+
+# AI/LLM integration (for LLM Agent)
+anthropic>=0.18.0
+
+# Web requests (for Research Agent)
+requests>=2.31.0
+
+# Async support
+asyncio-throttle>=1.0.0
+
+# Utilities
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+rich>=13.0.0  # For beautiful console output
