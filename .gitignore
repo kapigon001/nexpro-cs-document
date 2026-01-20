@@ -1,6 +1,9 @@
 # Output files
 output/
+
+# Ignore generated pptx except in docs/presentations
 *.pptx
+!docs/presentations/*.pptx
 
 # Python
 __pycache__/
